@@ -1,118 +1,125 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="{{ site.baseurl }}/assets/img/avatar.png" type="image/png">
 
-		<!-- Open graph tags to customize link previews. -->
-		<meta property="og:url"           content="{{ site.url }}">
-		<meta property="og:type"          content="website">
-		<meta property="og:title"         content="{{ site.name }}">
-		<meta property="og:description"   content="{{ site.description }}">
-		<meta property="og:image"         content="{{ site.url }}/assets/img/avatar.png">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="{{ site.baseurl }}/assets/img/avatar.png" type="image/png">
 
-		<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
+	<!-- Open graph tags to customize link previews. -->
+	<meta property="og:url" content="{{ site.url }}">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="{{ site.name }}">
+	<meta property="og:description" content="{{ site.description }}">
+	<meta property="og:image" content="{{ site.url }}/assets/img/avatar.png">
 
-		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/material-kit.css" />
+	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/material-kit.css" />
 
-	</head>
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-	<body id="page-top"{% if page.single %} class="single"{% endif %}>
-		<nav class="navbar fixed-top navbar-expand-lg bg-white">
-			<div class="container">
-				<div class="navbar-translate">
-					<a class="navbar-brand" href="{{ site.baseurl }}/">PixelBoot</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-						<span class="navbar-toggler-icon"></span>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-				</div>
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav ml-auto">
+</head>
 
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.baseurl }}/">Home</a>
-						</li>
-
-                                                <li class="nav-item">
-                                                        <a class="nav-link" href="{{ site.baseurl }}/devices">Devices</a>
-						</li>
-
-                                                <li class="nav-item">
-                                                        <a class="nav-link" href="{{ site.baseurl }}/downloads">Downloads</a>
-						<li>
-
-                                                <li class="nav-item">
-                                                        <a class="nav-link" href="{{ site.baseurl }}/portfolio">Portfolio</a>
-                                                </li>
-
-                                                <li class="nav-item">
-                                                        <a class="nav-link" href="{{ site.baseurl }}/updates">Updates</a>
-                                                </li>
-
-						<li class="nav-item">
-							<a class="nav-link" href="{{ site.baseurl }}/extras">Extras</a>
-						</li>
-						
-						<li class="nav-item">
-                                                        <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-                                                </li>
-					</ul>
-				</div>
+<body id="page-top" {% if page.single %} class="single" {% endif %}>
+	<nav class="navbar fixed-top navbar-expand-lg bg-white">
+		<div class="container">
+			<div class="navbar-translate">
+				<a class="navbar-brand" href="{{ site.baseurl }}/">Nothing Archives</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					<span class="navbar-toggler-icon"></span>
+					<span class="navbar-toggler-icon"></span>
+				</button>
 			</div>
-		</nav>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav ml-auto">
 
-		<div class="site-content">
-			{{ content }}
+					<li class="nav-item">
+						<a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="{{ site.baseurl }}/devices">Devices</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="{{ site.baseurl }}/downloads">Downloads</a>
+					<li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="{{ site.baseurl }}/portfolio">Portfolio</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="{{ site.baseurl }}/updates">Updates</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="{{ site.baseurl }}/extras">Extras</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+					</li>
+				</ul>
+			</div>
 		</div>
+	</nav>
 
-		<footer class="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-md">
-						<p class="footer-text">
-							<a href="https://github.com/PixelBoot">PixelBoot</a> &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-						</p>
-					</div>
-					<div class="col-md">
-						<div class="footer-icons">
-                                                        <a href="https://www.github.com/PixelBoot">
-                                                                <i class="fa fa-github fa-fw"></i>
-                                                        </a>
-                                                        <a href="https://gitlab.com/PixelBoot">
-                                                                <i class="fa fa-gitlab fa-fw"></i>
-                                                        </a>
-							<a href="https://www.linkedin.com/in/james-gatt">
-                                                                <i class="fa fa-linkedin fa-fw"></i>
-                                                        </a>
-                                                        <a href="https://www.paypal.com/paypalme/PixelBoot">
-                                                                <i class="fa fa-paypal fa-fw"></i>
-                                                        </a>
-                                                        <a href="https://www.reddit.com/user/PixelBoot">
-                                                                <i class="fa fa-reddit fa-fw"></i>
-                                                    	</a>
-                                                        <a href="https://t.me/PixelBoot">
-                                                                <i class="fa fa-telegram fa-fw"></i>
-                                                    	</a>
-							<a href="https://twitter.com/BootingPixel">
-								<i class="fa fa-twitter fa-fw"></i>
-							</a>
-						</div>
+	<div class="site-content">
+		{{ content }}
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md">
+					<p class="footer-text">
+						<a href="https://github.com/PixelBoot">Solomon Rajan</a> &copy; {{ site.time | date: '%Y' }}. All
+						rights reserved.
+					</p>
+				</div>
+				<div class="col-md">
+					<div class="footer-icons">
+						<a href="https://www.github.com/PixelBoot">
+							<i class="fa fa-github fa-fw"></i>
+						</a>
+						<a href="https://gitlab.com/PixelBoot">
+							<i class="fa fa-gitlab fa-fw"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/james-gatt">
+							<i class="fa fa-linkedin fa-fw"></i>
+						</a>
+						<a href="https://www.paypal.com/paypalme/PixelBoot">
+							<i class="fa fa-paypal fa-fw"></i>
+						</a>
+						<a href="https://www.reddit.com/user/PixelBoot">
+							<i class="fa fa-reddit fa-fw"></i>
+						</a>
+						<a href="https://t.me/PixelBoot">
+							<i class="fa fa-telegram fa-fw"></i>
+						</a>
+						<a href="https://twitter.com/BootingPixel">
+							<i class="fa fa-twitter fa-fw"></i>
+						</a>
 					</div>
 				</div>
 			</div>
-		</footer>
+		</div>
+	</footer>
 
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-		<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
-		<script src="{{ site.baseurl }}/assets/js/bootstrap-material-design.min.js"></script>
-		<script src="{{ site.baseurl }}/assets/js/material-kit.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/bootstrap-material-design.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/material-kit.js"></script>
 
-	</body>
+</body>
+
 </html>
