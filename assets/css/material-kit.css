@@ -34,7 +34,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -345,7 +345,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -6034,7 +6034,7 @@ legend {
   border-bottom: 0; }
 
 .serif-font {
-  font-family: "Roboto Slab", "Times New Roman", serif; }
+  font-family: "Roboto Mono", monospace; }
 
 * {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
@@ -6656,7 +6656,7 @@ label {
       opacity: 1; }
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: 300;
   line-height: 1.5em; }
 
@@ -6718,7 +6718,7 @@ small,
 .footer-big h4,
 .media .media-heading {
   font-weight: 700;
-  font-family: "Roboto Slab", "Times New Roman", serif; }
+  font-family: "Roboto Mono", monospace; }
   .title,
   .title a,
   .card-title,
