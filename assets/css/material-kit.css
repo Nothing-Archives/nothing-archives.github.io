@@ -1370,8 +1370,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #2196f3;
-  border-color: #2196f3;
+  background-color: #A5D6A7;
+  border-color: #A5D6A7;
   box-shadow: none; }
   .btn-primary:hover {
     color: #ffffff;
@@ -1381,8 +1381,8 @@ fieldset:disabled a.btn {
     box-shadow: none, 0 0 0 0.2rem rgba(33, 150, 243, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #ffffff;
-    background-color: #2196f3;
-    border-color: #2196f3; }
+    background-color: #A5D6A7;
+    border-color: #A5D6A7; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #ffffff;
@@ -1561,24 +1561,24 @@ fieldset:disabled a.btn {
       box-shadow: none, 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }
 
 .btn-outline-primary {
-  color: #2196f3;
+  color: #A5D6A7;
   background-color: transparent;
   background-image: none;
-  border-color: #2196f3; }
+  border-color: #A5D6A7; }
   .btn-outline-primary:hover {
     color: #ffffff;
-    background-color: #2196f3;
-    border-color: #2196f3; }
+    background-color: #A5D6A7;
+    border-color: #A5D6A7; }
   .btn-outline-primary:focus, .btn-outline-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(33, 150, 243, 0.5); }
   .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-    color: #2196f3;
+    color: #A5D6A7;
     background-color: transparent; }
   .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
   .show > .btn-outline-primary.dropdown-toggle {
     color: #ffffff;
-    background-color: #2196f3;
-    border-color: #2196f3; }
+    background-color: #A5D6A7;
+    border-color: #A5D6A7; }
     .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-primary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(33, 150, 243, 0.5); }
@@ -1746,7 +1746,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #2196f3;
+  color: #A5D6A7;
   background-color: transparent; }
   .btn-link:hover {
     color: #0a6ebd;
@@ -1941,7 +1941,7 @@ tbody.collapse.show {
   .dropdown-item.active, .dropdown-item:active {
     color: #ffffff;
     text-decoration: none;
-    background-color: #2196f3; }
+    background-color: #A5D6A7; }
   .dropdown-item.disabled, .dropdown-item:disabled {
     color: #6c757d;
     background-color: transparent; }
