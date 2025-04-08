@@ -9,7 +9,7 @@
 
     b{
         font-weight: $font-weight-bold;
-        text-transform: uppercase;
+        text-transform: capitalize:
         font-size: $font-size-small;
     }
     // SASS conversion note: please mirror any content change in _mixins-shared.scss alert-variations-content

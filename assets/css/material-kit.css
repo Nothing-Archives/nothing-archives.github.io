@@ -668,7 +668,7 @@ mark,
 
 .initialism {
   font-size: 90%;
-  text-transform: uppercase; }
+  text-transform: capitalize; }
 
 .blockquote {
   margin-bottom: 1rem;
@@ -4878,7 +4878,7 @@ button:focus {
   font-weight: 400;
   line-height: 1.42857;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 0;
   cursor: pointer;
   background-color: transparent;
@@ -6379,7 +6379,7 @@ label {
     color: #555; }
 
 .nav-link {
-  text-transform: uppercase; }
+  text-transform: capitalize; }
 
 .navbar-nav .nav-link {
   padding: 0.5321rem;
@@ -6433,7 +6433,7 @@ label {
     padding: 0.9375rem;
     font-weight: 400;
     font-size: 12px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border-radius: 3px;
     line-height: 20px; }
     .navbar .navbar-nav .nav-item .nav-link:not(.btn-just-icon) .fa {
@@ -6592,7 +6592,7 @@ label {
   line-height: 20px; }
   .alert b {
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 12px; }
   .alert, .alert.alert-default {
     background-color: white;
@@ -6695,7 +6695,7 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 0.75rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 500; }
 
 p {
@@ -7233,7 +7233,7 @@ h2.title {
   font-size: 0.9375rem; }
   .alert b {
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 14px;
     letter-spacing: normal; }
 
