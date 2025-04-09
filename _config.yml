@@ -1,25 +1,22 @@
-name: PixelBoot
-description: OpenSource Development by PixelBoot
-repository: PixelBoot/pixelboot.github.io
-url: http://pixelboot.github.io
+name: Nothing Archives
+description: OpenSource Development by Solomon Rajan
+repository: Nothing-Archives/nothing-archives.github.io
+url: https://nothing-archives.github.io/
 baseurl: ""
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
 
-  -
-    scope:
+  - scope:
       path: "changelog"
     values:
       layout: "changelog"
       single: "true"
 
-  -
-    scope:
+  - scope:
       path: "faq"
     values:
       layout: "faq_tutorial"
@@ -31,7 +28,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: "highlight"
 
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
