@@ -7326,9 +7326,7 @@ body {
 .site-content {
   flex: 1; }
 
-b,
-strong {
-  font-weight: 500; }
+
 
 hr.light {
   border-top: 1px solid rgba(0, 0, 0, 0.06); }
