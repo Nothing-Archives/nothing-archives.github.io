@@ -4882,8 +4882,8 @@ button:focus {
   letter-spacing: 0;
   cursor: pointer;
   background-color: transparent;
-  border: 0;
-  border-radius: 0.2rem;
+  border: 2;
+  border-radius: 1rem;
   outline: 0;
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: box-shadow, transform; }
@@ -4901,7 +4901,7 @@ button:focus {
     .btn.btn-primary:focus, .btn.btn-primary.focus, .btn.btn-primary:hover {
       color: #D50000;
       background-color: transparent;
-      border-color: #0b76cc; }
+      border-color: #D50000; }
     .btn.btn-primary:active, .btn.btn-primary.active,
     .open > .btn.btn-primary.dropdown-toggle,
     .show > .btn.btn-primary.dropdown-toggle {
