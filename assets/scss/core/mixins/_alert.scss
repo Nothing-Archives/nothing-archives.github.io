@@ -72,7 +72,7 @@
   }
   &#{$component}-inverse#{$selector-suffix} {
     $args-inverse: map-merge($args, (
-            variation-color: #D50000,
+            variation-color: #212121,
             variation-color-text: #fff
     ));
     @include call-variations-content-mixin($args-inverse);
